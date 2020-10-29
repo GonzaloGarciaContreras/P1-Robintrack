@@ -1,9 +1,9 @@
 # GROUP: *ROBINTRACK*
-## **Analysis: Effect of Number of Individual Robinhood on Unerlying Price & Option Volatility for RIOT, AMD, ABB, [Andrew's Stock]**
+## **Analysis: Effect of Number of Individual Robinhood on Unerlying Price & Option Volatility for RIOT, AMD, ABB, TSLA, [Ben's Stock]**
  
 
 
-### By Andrew Blemel, Gonzalo Garcia, Jexi Amaris, and Jack Fazzone
+### By Andrew Blemel, Gonzalo Garcia, Jexi Amaris, Ben S, and Jack Fazzone
 
 
 ### _Questions:_
@@ -34,9 +34,9 @@ Gonzalo & Andrew: Data Analysis
 3. Visualizations & Dashboard Preparation
 4. Presentation:
     
-    A. **Ben**: Explain why we need the data; what is this data supposed to answer?
+    A. **Jack**: Explain why we need the data; what is this data supposed to answer?
     
-    B. **Jack:** How does the number of individual Robinhood accounts holding a given security affect the strike price of the underlying? 
+    B. **Ben:** How does the number of individual Robinhood accounts holding a given security affect the strike price of the underlying? 
 
     **Gonzalo:** How does this affect implied volatility?
 
