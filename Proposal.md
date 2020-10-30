@@ -3,7 +3,7 @@
  
 
 
-### By Andrew Blemel, Gonzalo Garcia, Jexi Amaris, Ben S, and Jack Fazzone
+### By Andrew Blemel, Gonzalo Garcia, Jexi Amaris, and Jack Fazzone
 
 
 ### _Questions:_
@@ -14,7 +14,7 @@
 
 ### _Datasets:_
 1. Robintrack
-2. CME Historical Options Data
+2. Yahoo Finance
 
 ### _Roles:_
 Jack: Data Collection, Cleaning, Preparation
@@ -36,7 +36,7 @@ Gonzalo & Andrew: Data Analysis
     
     A. **Jack**: Explain why we need the data; what is this data supposed to answer?
     
-    B. **Ben:** How does the number of individual Robinhood accounts holding a given security affect the strike price of the underlying? 
+    B. **Jack:** How does the number of individual Robinhood accounts holding a given security affect the strike price of the underlying? 
 
     **Gonzalo:** How does this affect implied volatility?
 
