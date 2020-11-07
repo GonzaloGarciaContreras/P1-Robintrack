@@ -13,7 +13,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 
 # Analysis four tickers & top10 
 
-## 1. Determine any potential correlacion between the number of Robinhodd inverstors prices in different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
+## 1. Determine any potential correlacion between the number of Robinhodd inverstors and prices considering different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
 
 ### ABB 
 Business --> Headqutered in Switzerland, ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
