@@ -36,7 +36,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 * Correlation: We do not observe correlation between number of Robinhood investors and price
 * Fundamental analysis: Consistent with company results P&L-BS and projections in the semicopnductors industry
 
-### RIOT -> 
+### RIOT 
 * Business: Blockchain 
 * Robinhood Investors: Has grown the number of investors by factor of two  (from 15ku to 30ku) 
 * Price: Has grown by a four factor ($1 to $4)
