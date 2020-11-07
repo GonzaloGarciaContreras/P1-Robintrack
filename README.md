@@ -11,7 +11,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 
 
 
-# Analysis four tickers & top10 
+# Analysis: Four tickers and Top10 
 
 ## 1. Determine any potential correlacion between the number of Robinhood inverstors and prices. Consider different industries: Four stocks analysis ABB, TSLA, AMD, RIOT  
 
