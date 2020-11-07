@@ -13,39 +13,41 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 
 # Analysis four tickers & top10 
 
-## 1. to determine any potential relacion # Rhood investors and prices in different industries (took 4 stocks)  
-### ABB -> 
-Business --> Headqutered in SW ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
-Investors --> Within 2020 the # of RH investors x 2 but still not very singinificant (2k 4k), 
-Price --> very stable (24-26), impact in Mar/Apr but recovered the pandemic didn't impact them 
-Correlation --> we do not see any correlation between #investor and price/volatility 
+## 1. Determine any potential correlacion between the number of Robinhodd inverstors prices in different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
+
+### ABB 
+Business --> Headqutered in Switzerland, ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
+Robinhood Investors --> Within 2020 the number investors multiplied by 2, but still not very singinificant (2k 4k), 
+Price --> Very stable ($24 .. $26), impact in Mar/Apr but recovered, the pandemic didn't impact ABB
+Correlation --> We do not see any correlation between number investors and price
 Fundamental analysis --> Consistent balance sheet compared with stock value 
 
-### TSLA -> 
+### TSLA 
 The case of TSLA is very different 
-Investors --> Within 2020 from 120ku to 550ku, so  x 4 the # of RH investors 
-Price --> Has been highly volatily from $400 to $1400, with a drop in Mach and a big rally since then
-Correlation --> se see correlation it the begining of the year and and as July. We can expeculate that the large increase of RH investors could have an influence in the price 
+Investors --> Within 2020 from 120ku to 550ku, so about four times increase  
+Price --> Tesla has been highly volatile in 2020 from $400 to $1400, with a drop in Mach and a big rally since then
+Correlation --> We onserve correlation, especially at the begining of the year and since Jun/Jul. We can expeculate that the large increase of RH investors could have an influence in the price 
 Fundamental analysis --> Very especulative,  base on GW?, little connexion to P&L-BS
 
-### AMD -> 
+### AMD 
 Business --> 
-Investors --> evolves from 170ku to 260k +50% 
-Price --> AMD is clearly a winner in current context, with a drop if Mar, since then has grown twice the price  (40 to 80)
-Correlation --> we do not see any correlation between #investor and price/volatility 
-Fundamental analysis --> consistent with company results P&L and projections in the semicopnductors industry
+Investors --> Evolves from 170ku to 260ku +50% 
+Price --> AMD is clearly a winner in current context, with a drop if Mar, since then has grown twice the price  ($40 to $80)
+Correlation --> We do not observe correlation between number of Robinhood investors and price
+Fundamental analysis --> Consistent with company results P&L-BS and projections in the semicopnductors industry
 
 ### RIOT -> 
 Business --> Blockchain 
-Investors --> has grown the # of investors by 2 (15k to 30k) 
-Price --> has grown by 4times (1 to 4)
-Correlation --> we do not see any correlation between #investor and price/volatility 
-Fundamental analysis --> expeculative, trendy, potential, P&L?
+Investors --> Has grown the number of investors by factor of two  (from 15ku to 30ku) 
+Price --> Has grown by a four factor ($1 to $4)
+Correlation --> We do not observe correlation between number of robinhood investors and price
+Fundamental analysis --> expeculative, trendy, potential, P&L-BS?
 
-### Conclusions --> Only TSLA present some correlation in between volatility of price and number of users, especially at the beginning of the year Feb and july/August
+### Conclusions  
+Only TSLA present some correlation in between volatility of price and number of users, especially at the beginning of the year Feb and july/August
 
-## 2.Behabior of RH investors 
-Top 10 -> # varies from 400ku GoPro to 900ku+  in Ford 
-Low users volatility -> investors retain stocks: GoPro, TSLA, MSFT, Apple
-Highly volatile --> Airlines Delta and AAirlines 
+## 2. Behabior of Robinhood investors 
+Top 10 Stocks -> number of investors varies from 400ku GoPro to 900ku+ in Ford 
+Stocks with low investment volatility -> Investors tend to keep GoPro, TSLA, MSFT, Apple
+Stocks with high investment volatility --> In 2020 Investors trade quickly (got rid off) Airlines Delta and AAirlines 
 
