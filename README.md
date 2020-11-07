@@ -13,11 +13,11 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 
 # Analysis four tickers & top10 
 
-## 1. Determine any potential correlacion between the number of Robinhodd inverstors and prices considering different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
+## 1. Determine any potential correlacion between the number of Robinhood inverstors and prices considering different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
 
 ### ABB 
 Business --> Headqutered in Switzerland, ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
-Robinhood Investors --> Within 2020 the number investors multiplied by 2, but still not very singinificant (2k 4k), 
+Robinhood Investors --> Within 2020 the number investors multiplied by a two factor, still only relatively significant (from 2ku to 4ku)
 Price --> Very stable ($24 .. $26), impact in Mar/Apr but recovered, the pandemic didn't impact ABB
 Correlation --> We do not see any correlation between number investors and price
 Fundamental analysis --> Consistent balance sheet compared with stock value 
@@ -47,7 +47,7 @@ Fundamental analysis --> expeculative, trendy, potential, P&L-BS?
 Only TSLA present some correlation in between volatility of price and number of users, especially at the beginning of the year Feb and july/August
 
 ## 2. Behabior of Robinhood investors 
-Top 10 Stocks -> number of investors varies from 400ku GoPro to 900ku+ in Ford 
-Stocks with low investment volatility -> Investors tend to keep GoPro, TSLA, MSFT, Apple
-Stocks with high investment volatility --> In 2020 Investors trade quickly (got rid off) Airlines Delta and AAirlines 
+#### Top 10 Stocks -> number of investors varies from 400ku GoPro to 900ku+ in Ford 
+#### Stocks with low investment volatility -> Investors tend to keep GoPro, TSLA, MSFT, Apple
+#### Stocks with high investment volatility --> In 2020 Investors trade quickly (got rid off) Airlines Delta and AAirlines 
 
