@@ -16,11 +16,11 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 ## 1. Determine any potential correlacion between the number of Robinhood inverstors and prices considering different industries: 4 stocks comparation ABB, TSLA, AMD, RIOT  
 
 ### ABB 
-Business --> Headqutered in Switzerland, ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
-Robinhood Investors --> Within 2020 the number investors multiplied by a two factor, still only relatively significant (from 2ku to 4ku)
-Price --> Very stable ($24 .. $26), impact in Mar/Apr but recovered, the pandemic didn't impact ABB
-Correlation --> We do not see any correlation between number investors and price
-Fundamental analysis --> Consistent balance sheet compared with stock value 
+* Business: Headquatered in Switzerland, ABB Ltd. supplies products for electricity grids; energy efficient, engineering, robotics 
+* Robinhood Investors: Within 2020 the number investors multiplied by a two factor, still only relatively significant (from 2ku to 4ku)
+* Price --> Very stable ($24 .. $26), impact in Mar/Apr but recovered, the pandemic didn't impact ABB
+* Correlation --> We do not see any correlation between number investors and price
+* Fundamental analysis --> Consistent balance sheet compared with stock value 
 
 ### TSLA 
 The case of TSLA is very different 
