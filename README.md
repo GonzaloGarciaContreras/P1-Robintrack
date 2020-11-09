@@ -21,6 +21,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 * Price: Very stable ($24 .. $26), impact in Mar/Apr but recovered, the pandemic didn't impact ABB
 * Correlation: We do not see any correlation between number investors and price
 * Fundamental analysis: Consistent balance sheet compared with stock value 
+![ABB](./Images/abb_plot.png)
 
 ### TSLA 
 * Business: Automotive 
@@ -28,6 +29,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 * Price: Tesla has been highly volatile in 2020 from $400 to $1400, with a drop in Mach and a big rally since then
 * Correlation: We onserve correlation, especially at the begining of the year and since Jun/Jul. We can expeculate that the large increase of RH investors could have an influence in the price 
 * Fundamental analysis: Expeculative,  base on GW?, little connexion to P&L-BS
+![TSLA](./Images/tsla_plot.png)
 
 ### AMD 
 * Business: Semiconductors 
@@ -35,6 +37,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 * Price: AMD is clearly a winner in current context, with a drop if Mar, since then has grown twice the price  ($40 to $80)
 * Correlation: We do not observe correlation between number of Robinhood investors and price
 * Fundamental analysis: Consistent with company results P&L-BS and projections in the semicopnductors industry
+![AMD](./Images/amd_plot.png)
 
 ### RIOT 
 * Business: Blockchain 
@@ -42,6 +45,7 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 * Price: Has grown by a four factor ($1 to $4)
 * Correlation: We do not observe correlation between number of robinhood investors and price
 * Fundamental analysis: Expeculative, trendy, potential, P&L-BS?
+![RIOT](./Images/riot_plot.png)
 
 ### Conclusions  
 Only TSLA present some correlation in between volatility of price and number of users, especially at the beginning of the year Feb and july/August
