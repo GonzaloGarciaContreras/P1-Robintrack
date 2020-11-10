@@ -6,10 +6,6 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 
 ### Dashboard
 1) Effect analysis: shows the analysis for the effect of Robinhood acconts on ABB, TSLA, AMD, and RIOT price. 
-![ABB](./Images/abb_plot.png)
-
-
-
 
 # Analysis: Four tickers and Top10 
 
@@ -54,4 +50,16 @@ Only TSLA present some correlation in between volatility of price and number of 
 * Top 10 Stocks: number of investors varies from 400ku GoPro to 900ku+ in Ford 
 * Stocks with low investment volatility: Investors tend to keep GoPro, TSLA, MSFT, Apple
 * Stocks with high investment volatility: In 2020 Investors trade quickly (got rid off) Airlines Delta and American Airlines 
+
+## 3. Volatility and correlation of top 10 most popular stocks in Robinhood
+
+### Volatility of top 10 most popular stocks in Robinhood
+The analysis of top 10 most popular stocks was determined by using the rolling moving average of the standard deviation at 21 days for all 10 stocks. The result shows that GPRO, CCL, TSLA, DAL, DIS, AAL, MSFT, AAPL, GE, and F had have a similar volatility behavior even though they are group by different market sectors. Since January through August 2020 all 10 stocks had been moving together; however, AAL, CCL, and DAL had been over the average of volatility, which indicated that Robinhhod inestor are taking very risky investments.
+![MA](./Images/ma_stocks_plot.png)
+
+### Correlation of top 10 most popular stocks in Robinhood
+The correlation of top 10 most popular stocks was determined by claculating the correlation among the stocks. The strogest correlation are among stocks from the same market sector such as AAPL and MSFT 0.89. However, there are some interesting correlation among stocks from different sector such as AAPL and DIS or DIS and MSFT both have the same correlation 0.68.
+![MA](./Images/corr_stocks.png)
+                                                  
+
 
