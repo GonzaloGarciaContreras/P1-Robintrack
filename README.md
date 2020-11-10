@@ -46,10 +46,12 @@ The results of the analysis on the effect of Robinhood user accounts on stocks a
 ### Conclusions  
 Only TSLA present some correlation in between volatility of price and number of users, especially at the beginning of the year Feb and july/August
 
-## 2. Behabior of Robinhood investors 
+## 2. Behavior of Robinhood investors 
 * Top 10 Stocks: number of investors varies from 400ku GoPro to 900ku+ in Ford 
 * Stocks with low investment volatility: Investors tend to keep GoPro, TSLA, MSFT, Apple
 * Stocks with high investment volatility: In 2020 Investors trade quickly (got rid off) Airlines Delta and American Airlines 
+* The line plot shows the number of Robinhood's accounts for each stock. 
+![TOP10](./Images/top10_plot.png)
 
 ## 3. Volatility and correlation of top 10 most popular stocks in Robinhood
 
@@ -60,6 +62,15 @@ The analysis of top 10 most popular stocks was determined by using the rolling m
 ### Correlation of top 10 most popular stocks in Robinhood
 The correlation of top 10 most popular stocks was determined by claculating the correlation among the stocks. The strogest correlation are among stocks from the same market sector such as AAPL and MSFT 0.89. However, there are some interesting correlation among stocks from different sector such as AAPL and DIS or DIS and MSFT both have the same correlation 0.68.
 ![MA](./Images/corr_stocks.png)
+
+## 4. Volatility and correlation of cryptocurrency in Robinhood
                                                   
+![MA](./Images/ma_crypto_plot.png)
 
 
+### Correlation of cryptocurrency in Robinhood
+* BTC correlation with the number of Robinhood's users 0.43,
+* DOGE correlation with the number of Robinhood's users 0.53,
+* ETH correlation with the number of Robinhood's users 0.62,
+* LTC correlation with the number of Robinhood's users -0.39,
+* XRP correlation with the number of Robinhood's users -0.16.
