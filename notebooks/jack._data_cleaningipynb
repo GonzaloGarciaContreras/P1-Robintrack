@@ -1,0 +1,134 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6-final"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "Python 3.7.6 64-bit",
+   "display_name": "Python 3.7.6 64-bit",
+   "metadata": {
+    "interpreter": {
+     "hash": "8d6ab33286f78d080320ea4280550503030699c9878852cc65d630c9e03cc862"
+    }
+   }
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd \n",
+    "import os"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def clean_data(raw_csv):\n",
+    "    # Read in csv and drop na\n",
+    "    csv = pd.read_csv(raw_csv,infer_datetime_format=True)\n",
+    "    csv = csv.dropna()\n",
+    "    # Create mask from beginning to end of analyzed period\n",
+    "    # Citation: https://www.interviewqs.com/ddi_code_snippets/select_pandas_dataframe_rows_between_two_dates\n",
+    "    csv['timestamp'] = pd.to_datetime(csv['timestamp'])\n",
+    "    start_date = '01-01-20 00:00:01'\n",
+    "    end_date = '08-10-20 23:59:59'\n",
+    "    mask = (csv['timestamp'] > start_date) & (csv['timestamp'] <= end_date)\n",
+    "    csv = csv[mask]\n",
+    "\n",
+    "    # # If you run into trouble plotting with the time in the timestamps, uncommenting this will return only the date entries\n",
+    "    # # We can decide whether we want to keep the first or last of the duplicates depending on how our data shapes out\n",
+    "    # # Citation: https://stackoverflow.com/questions/35595710/splitting-timestamp-column-into-separate-date-and-time-columns\n",
+    "    # csv['date'] = [d.date() for d in csv['timestamp']]\n",
+    "    # csv['time'] = [d.time() for d in csv['timestamp']]\n",
+    "    # csv = csv.drop(columns=['timestamp','time'])\n",
+    "\n",
+    "    new_csv = raw_csv.replace(\".csv\", \"_csv\")\n",
+    "    new_csv = new_csv.replace(\"../data/rawdata\",\"\")\n",
+    "    csv.to_csv(f\"../data/cleandata/{new_csv}_clean.csv\", index=False)\n",
+    "    return csv"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Prepare Yahoo files to run through celaning function\n",
+    "for yahoo_file in os.listdir('../data/rawdata/Yahoo_Finance_Data/'):\n",
+    "    yahoo_csv = pd.read_csv(f'../data/rawdata/Yahoo_Finance_Data/{yahoo_file}', infer_datetime_format=True)\n",
+    "    yahoo_csv.rename(columns={'Date' : 'timestamp'}, inplace=True)\n",
+    "    yahoo_csv = yahoo_csv.loc[:,['timestamp', 'Open','High','Low','Close','Adj Close','Volume']]\n",
+    "    yahoo_csv.to_csv(f\"../data/rawdata/Yahoo_Finance_Data/{yahoo_file}\")\n",
+    "\n",
+    "# Citation: https://pandasninja.com/2019/04/how-to-read-lots-of-csv-files-easily-into-pandas/\n",
+    "raw_folders = os.listdir('../data/rawdata')\n",
+    "for folder in raw_folders:\n",
+    "    raw_csvs = os.listdir(f'../data/rawdata/{folder}')\n",
+    "    for raw_csv in raw_csvs:\n",
+    "        raw_csv = f'../data/rawdata/{folder}/{raw_csv}'\n",
+    "        clean_data(raw_csv)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# #Cleaning top ten most popular\n",
+    "# top_ten_csv = pd.read_csv('../data/cleandata/Processed_Data/df_popularity.csv')    \n",
+    "# for stock in top_ten_csv['ticker']:\n",
+    "#     stock_csv = pd.read_csv(f'../data/rawdata_robin_all/popularity_export/{stock}.csv'\n",
+    "#     stock_csv.to_csv(f'../data/rawdata/Robintrack_Data/{stock_csv}.csv')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
