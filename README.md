@@ -4,7 +4,7 @@ This project analyse the effect of Robinhood accounts on four stocks ABB, TSLA, 
 ## _Introduction_
 - The economic retraction and uncertainty which accompanied the pandemic lockdown has lent itself to rapid growth in FinTech companies which afford clients greater control over personal finances. For instance, personal portfolio management has grown significantly, to the benefit of stock-trading applications like Robinhood, which saw an increase of three million funded accounts between January and April, as Forbes reports [1]. According to its Q2 SEC regulatory filing, Robinhood's monthly order flow revenue largely trended upward throughout the quarter, which totaled nearly twice that of Q1 [2][3].
 
-.![Order_Flow_Growth](../P1-Robintrack/Images/960x0.jpg)
+.![Order_Flow_Growth](../P1-Robintrack/Images/960x0.png)
 
 _Above: Order flow revenue figures between April and June 2020 (via Forbes [4])_
 
