@@ -44,7 +44,7 @@ Gonzalo & Andrew: Data Analysis
     
     E. **Andrew:** Does the number of Robinhood users correlate with crypto prices? 
         
-        Stronger correlation between Ethereum than Bitcoin, we speculate that it could be due to lower price and/or higher volatility, like we saw with TSLA. 
+        Stronger correlation between Ethereum than Bitcoin, we speculate that it could be due to lower price and/or higher volatility, like we saw with TSLA. speaking of Elon Musk, We noticied an odd spike in the cryptocurrency Dogecoin
                 
                 For volatile stocks like TSLA, the prices tend to have a greater effect on the number of users holding them than the number of users have on the price (TSLA). we found that the number of users holding TSLA would sharply increase shortly after the increase in price
 
