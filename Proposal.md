@@ -75,11 +75,13 @@ Gonzalo & Andrew: Data Analysis
 
     D. **Jexi:** Volatility Rolling Average of Top 10 most popular stocks? 
     
-    E. **Andrew:** Does the number of Robinhood users correlate with crypto prices? Stronger correlation between Ethereum than Bitcoin, we speculate that it could be due to lower price and/or higher volatility, like we saw with TSLA.
+    E. **Andrew:** Does the number of Robinhood users correlate with crypto prices? 
+        
+        Stronger correlation between Ethereum than Bitcoin, we speculate that it could be due to lower price and/or higher volatility, like we saw with TSLA. speaking of Elon Musk, We noticied an odd spike in the cryptocurrency Dogecoin
                 
-                For volatile stocks, the prices of those stocks tend to have a greater effect on the number of users holding them than the number of users have on the price (TSLA).
+                For volatile stocks like TSLA, the prices tend to have a greater effect on the number of users holding them than the number of users have on the price (TSLA). we found that the number of users holding TSLA would sharply increase shortly after the increase in price
 
-                We disproved the Robinhood Effect. There is little connection between the number of users holding a given security and the fundamental value (balance sheet). This leads us to conclude that much of Robinhood trading is based on speculation.
+                We believe we disproved the Robinhood Effect. There is little connection between the number of users holding a given security and the fundamental value (balance sheet). This leads us to conclude that much of Robinhood trading is based on speculation, and that trading on robinhood in general has little to no effect on the markets.
 
    
 
