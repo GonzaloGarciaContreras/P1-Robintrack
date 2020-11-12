@@ -93,3 +93,14 @@ The correlation of top 10 most popular stocks was determined by claculating the 
 * ETH correlation with the number of Robinhood's users 0.62,
 * LTC correlation with the number of Robinhood's users -0.39,
 * XRP correlation with the number of Robinhood's users -0.16.
+
+_**Citations:**_
+   
+
+1, 2, 4 https://www.forbes.com/sites/jeffkauflin/2020/08/03/robinhood-doubles-its-second-quarter-trading-revenue-reaching-180-million/?sh=55395bd9768c
+
+3 https://cdn.robinhood.com/assets/robinhood/legal/RHS%20SEC%20Rule%20606a%20and%20607%20Disclosure%20Report%20Q2%202020.pdf
+
+5, 6 https://financhill.com/blog/investing/robinhood-effect-on-stock-market
+
+7 https://www.investopedia.com/news/robinhood-app-thrives-bitcoin/
