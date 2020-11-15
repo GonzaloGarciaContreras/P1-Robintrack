@@ -94,7 +94,15 @@ The correlation of top 10 most popular stocks was determined by claculating the 
 * LTC correlation with the number of Robinhood's users -0.39,
 * XRP correlation with the number of Robinhood's users -0.16.
 
-_**Citations:**_
+We find that for the most part, there is little correlation between cryptocurrency prices and the number of Robinhood user accounts. There is a moderate correlation for Ethereum, however, which we speculate may be due to its lower price point relative to the other cryptocurrency tradable on Robinhood, Bitcoin, or to its higher volatility, which would be consistent with the stronger relationship between the price and number Robinhood users holding Tesla, a volatile stock.
+
+## _Summary_
+
+In conclusion, we have have found little evidence of the Robinhood Effect moving stock prices, even for the top ten most popular stocks among Robinhood users. Even in cases such as Tesla, where a correlation between the number of users and the price of the stock exists,the pattern we see from the data is that spikes in the volatility of the numbers of users holding the stock are preceded by spikes in price volatility. This would imply that in the case of stocks like Tesla, the stock price has a greater affect on the number of Robinhood users holding the stock than vice versa.
+
+
+
+## **Citations:**
    
 
 1, 2, 4 https://www.forbes.com/sites/jeffkauflin/2020/08/03/robinhood-doubles-its-second-quarter-trading-revenue-reaching-180-million/?sh=55395bd9768c
